@@ -20,18 +20,20 @@ export default function RootLayout({
       <body className={inter.className}>
         <nav>
           <ul>
-            <li>
-              <Link href='/'>Home</Link>
+            <li className='left'>
+              <Link className='nav-link' href='/'>Login</Link>
             </li>
-            <li>
-              <Link href='/hugo'>Go To Hugo</Link>
+            <li className='left'>
+              <Link className='nav-link' href='/hugo'>Hugo</Link>
             </li>
-            <li>
-              <Link href='/'>Test</Link>
+            <li className='left'>
+              <Link className='nav-link' href='/vilma'>Vilma</Link>
             </li>
           </ul>
         </nav>
-        {children}
+        <div className='child'>
+          {children}
+        </div>
       </body>
     </html>
   )

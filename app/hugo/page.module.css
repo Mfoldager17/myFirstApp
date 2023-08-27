@@ -1,0 +1,43 @@
+.imgcontainer {
+    max-width: 1200px;
+    display: grid;
+    justify-content: center;
+}
+
+.img {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    transition: 2s;
+}
+
+.img:hover {
+    transform: scale(2);
+}
+
+.container {
+    text-align: center;
+}
+
+@media (min-width: 900px) {
+    .imgcontainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1500px) {
+    .imgcontainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 2000px) {
+    .imgcontainer {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 2400px) {
+    .imgcontainer {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
