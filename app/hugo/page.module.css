@@ -1,12 +1,13 @@
 .imgcontainer {
-    max-width: 1200px;
+    background-color: rgba(255, 255, 255, 0.397);
+    border-radius: 25px;
+    border: outset rgba(255, 255, 255, 0.397);
     display: grid;
     justify-content: center;
 }
 
 .img {
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin: 20px;
     transition: 2s;
 }
 
@@ -15,7 +16,19 @@
 }
 
 .container {
+    justify-content: center;
+    margin-top: -15px;
+    color: rgb(65, 65, 65);
     text-align: center;
+}
+
+.h1 {
+    background-color: rgba(255, 255, 255, 0.397);
+    margin-bottom: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 25px;
+    border: outset rgba(255, 255, 255, 0.397);
 }
 
 @media (min-width: 900px) {

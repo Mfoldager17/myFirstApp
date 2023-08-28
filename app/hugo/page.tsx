@@ -4,7 +4,9 @@ import styles from './page.module.css'
 export default function page() {
     return (
         <div className={styles.container}>
-            <h1>HUGO</h1>
+            <div className={styles.h1}>
+                <h1>HUGO</h1>
+            </div>
             <div className={styles.imgcontainer}>
                 <Image
                     className={styles.img}
