@@ -30,8 +30,8 @@
 }
 
 .btn {
-    background-color: transparent;
-    border: 2px solid rgb(65, 65, 65);
+    background-color: rgb(150, 150, 150);
+    border: 2px solid rgba(255, 255, 255, 0.397);
     border-radius: 25px;
     color: rgb(65, 65, 65);
     font-weight: 900;
@@ -48,9 +48,19 @@
     transform: scale(1.15);
 }
 
+.btn:focus {
+    background-color: rgba(255, 255, 255, 0.397);
+    transform: scale(1.15);
+}
+
 .login:hover {
     transform: scale(1.15);
 }
+
+.login:focus {
+    transform: scale(1.15);
+}
+
 
 .h1 {
     margin-left: -50px;

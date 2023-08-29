@@ -8,11 +8,11 @@
 
 .img {
     margin: 20px;
-    transition: 1.5s;
+    transition: 1s;
 }
 
 .img:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .container {
@@ -23,10 +23,10 @@
 }
 
 .h1 {
+    margin-left: 45%;
+    margin-right: 45%;
     background-color: rgba(255, 255, 255, 0.397);
     margin-bottom: 20px;
-    margin-left: 30%;
-    margin-right: 30%;
     border-radius: 25px;
     border: outset rgba(255, 255, 255, 0.397);
 }
